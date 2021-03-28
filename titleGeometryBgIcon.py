@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[18]:
-
-
 from tkinter import *   #引入tkinter
 
 print(TkVersion)        #8.6 (tkinter版本)
@@ -20,22 +14,3 @@ root.configure(bg="#880088") #視窗背景顏色 "#RGB" 也可直接用"yellow",
 root.iconbitmap("logo.ico")  #左上角的icon(圖標)
 
 root.mainloop()         #進入等待處理物件狀態
-
-
-# In[17]:
-
-
-
-
-
-# In[17]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
