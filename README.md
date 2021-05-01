@@ -8,3 +8,6 @@
 >label:  
 >>label各參數及功能  
   
+>useOfInit:  
+>>__init__的使用  
+  
