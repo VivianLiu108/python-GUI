@@ -5,3 +5,6 @@
 >>title("")   geometry("")   configure(bg = "")   iconbitmap("")  
 >>mainloop()  
   
+>label:  
+>>label各參數及功能  
+  
