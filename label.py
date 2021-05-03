@@ -14,7 +14,7 @@ alabel = Label(root, text = "功能", fg = "red", bg = "lightyellow", height = 3
 # font : 字型與大小，"Helvetic 20 bold" = ("Helvetic", 20, "bold")
 # justify :　指定多行文字對齊方式，"left" "center" "right"
 blabel = Label(root, bitmap = "hourglass", text = "沙漏", compound = "left", relief = "raised",
-               padx = 20, pady = 20)
+               padx = 20, pady = 20, cursor = "star")
 # bitmap : 內建的bitmap，"hourglass" "error" "info" "questhead" "question" "warning"
 #                        "gray12" "gray25" "gray50" "gray75"
 # compound : 圖文共存時，圖像(bitmap or image)在左。如無指定compound，text不會顯示
@@ -25,6 +25,7 @@ blabel = Label(root, bitmap = "hourglass", text = "沙漏", compound = "left", r
 #                           photoi = PhotoImage(file = "cat.png")
 # from PLI import Image, ImageTk  image : image = photoi
 #                                 imag = Image.open("cat.jpg")  photoi = ImageTk.PhotoImage(imag)
+# cursor : 滑鼠移到物件上時的形狀(用於Label和Button)
 alabel.pack()
 blabel.pack()
 import time
